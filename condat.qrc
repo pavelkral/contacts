@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/" >
+        <file>icons/03.png</file>
+        <file>icons/Book.png</file>
+        <file>icons/addbook.png</file>
+        <file>icons/addzak.png</file>
+        <file>icons/ausr.png</file>
+        <file>icons/b_drop.png</file>
+        <file>icons/con1.png</file>
+        <file>icons/drop_cont.png</file>
+        <file>icons/dusr.png</file>
+        <file>icons/lupa.png</file>
+        <file>icons/phone.png</file>
+        <file>icons/save.png</file>
+        <file>icons/user.png</file>
+        <file>icons/icon.png</file>
+    </qresource>
+</RCC>
