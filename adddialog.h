@@ -1,19 +1,18 @@
 //
-// C++ Interface: adddialog
+// C++ Interface:
 //
 // Description: 
 //
-//
-// Author: coyote,,,, <coyotex@coyote-kernel>, (C) 2008
+// Author:Pavel Kral (C) 2008
 //
 // Copyright: See COPYING file that comes with this distribution
 //
-//
+
 #ifndef ADDDIALOG_H
 #define ADDDIALOG_H
 
 /**
-	@author coyote,,,, <coyotex@coyote-kenel>
+        @author Pavel Kral
 */
 #include "ui_adddialog.h"
 

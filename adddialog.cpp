@@ -1,13 +1,12 @@
 //
-// C++ Implementation: adddialog
+// C++ Interface:
 //
-// Description: 
+// Description:
 //
-// Author: Pavel Kral (C) 2008
+// Author:Pavel Kral (C) 2008
 //
 // Copyright: See COPYING file that comes with this distribution
 //
-
 
 #include <QtGui>
 #include <QDialog>
@@ -24,10 +23,8 @@ AddDialog::AddDialog(const QString title,const QString idgrload,QWidget *parent)
    
 	 setupUi(this);
 	 setWindowTitle(title);
-		//createToolBar();
-
-    
-         QSqlQuery querycombo("SELECT * FROM groups ORDER BY name ASC");
+        //createToolBar();
+        QSqlQuery querycombo("SELECT * FROM groups ORDER BY name ASC");
         
          while (querycombo.next()) {
          QString country = querycombo.record().value("name").toString();
@@ -38,7 +35,7 @@ AddDialog::AddDialog(const QString title,const QString idgrload,QWidget *parent)
          int idcount = comboBox->count();
          
          int i;
-        // int c;
+
          for(i = 0; i < idcount; i++){
          QString id_groups = comboBox->itemData(i).toString();
          if(id_groups == idgrload){

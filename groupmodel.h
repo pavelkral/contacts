@@ -1,35 +1,34 @@
 //
-// C++ Interface: groupmodel
+// C++ Interface:
 //
-// Description: 
+// Description:
 //
-//
-// Author: coyote,,,, <coyotex@coyote-kenel>, (C) 2008
+// Author:Pavel Kral (C) 2008
 //
 // Copyright: See COPYING file that comes with this distribution
 //
-//
+
 #ifndef GROUPMODEL_H
 #define GROUPMODEL_H
 
 /**
-	@author coyote,,,, <coyotex@coyote-kenel>
+        @author
 */
 #include <QSqlQueryModel>
- #include <QFileIconProvider>
- #include <QVector>
+#include <QFileIconProvider>
+#include <QVector>
 
- class GroupModel : public QSqlQueryModel
- {
-     Q_OBJECT
+class GroupModel : public QSqlQueryModel
+{
+	Q_OBJECT
 
- public:
-     
-   GroupModel( QObject *parent = 0);
-    QVariant data(const QModelIndex &index, int role) const;
-     //QVariant headerData(int section, Qt::Orientation orientation, int role) const;
-    virtual ~GroupModel();
-   
- };
+	public:
+	
+	GroupModel ( QObject *parent = 0 );
+	QVariant data ( const QModelIndex &index, int role ) const;
+	//QVariant headerData(int section, Qt::Orientation orientation, int role) const;
+	virtual ~GroupModel();
 
- #endif
+};
+
+#endif

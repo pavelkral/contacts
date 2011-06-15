@@ -1,12 +1,11 @@
 //
-// C++ Implementation: adddialog
+// C++ Interface:
 //
-// Description: 
+// Description:
 //
-// Author: Pavel Kral (C) 2008
+// Author:Pavel Kral (C) 2008
 //
 // Copyright: See COPYING file that comes with this distribution
-//
 //
 
 #ifndef CONECT_H
@@ -42,10 +41,7 @@ static bool createConnection()
     //query.exec("insert into contact values('', 'v', 'P', 'Y')");
 
 
-
-
-
-    return true;
+   return true;
 }
 
 #endif
