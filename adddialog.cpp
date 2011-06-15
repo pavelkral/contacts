@@ -6,7 +6,7 @@
 // Author:Pavel Kral (C) 2008
 //
 // Copyright: See COPYING file that comes with this distribution
-//
+
 
 #include <QtGui>
 #include <QDialog>
@@ -21,10 +21,10 @@ AddDialog::AddDialog(const QString title,const QString idgrload,QWidget *parent)
  
 {
    
-	 setupUi(this);
-	 setWindowTitle(title);
-        //createToolBar();
-        QSqlQuery querycombo("SELECT * FROM groups ORDER BY name ASC");
+		 setupUi(this);
+		 setWindowTitle(title);
+         //createToolBar();
+         QSqlQuery querycombo("SELECT * FROM groups ORDER BY name ASC");
         
          while (querycombo.next()) {
          QString country = querycombo.record().value("name").toString();
