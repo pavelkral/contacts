@@ -3,12 +3,12 @@
 //
 // Description: 
 //
-//
-// Author: coyote,,,, <coyotex@coyote-kernel>, (C) 2008
+// Author: Pavel Kral (C) 2008
 //
 // Copyright: See COPYING file that comes with this distribution
 //
-//
+
+
 #include <QtGui>
 #include <QDialog>
 #include <QSqlQuery>

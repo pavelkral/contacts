@@ -1,4 +1,13 @@
-
+//
+// C++ Implementation: adddialog
+//
+// Description: 
+//
+// Author: Pavel Kral (C) 2008
+//
+// Copyright: See COPYING file that comes with this distribution
+//
+//
 
 #ifndef CONECT_H
 #define CONECT_H
