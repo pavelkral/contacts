@@ -1,8 +1,6 @@
-License: GNU
+Contacts Database example using intagrate SQlite system in Qt.
 
-Platform: Multi
+To compile run:
 
-Compilation:
-
-$ qmake
-$ make 
+	$qmake
+	$make 
