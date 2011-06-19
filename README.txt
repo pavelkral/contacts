@@ -1,6 +1,6 @@
-Contacts Database example using intagrate SQlite system in Qt.
+Database freeware to store contacts using intagrated SQlite system in Qt library.
 
 To compile run:
 
-	$qmake
-	$make 
+$qmake
+$make (by platform)
