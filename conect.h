@@ -36,9 +36,7 @@ static bool createConnection()
     query.exec("create table groups (name varchar(25),id INTEGER primary key autoincrement)");
     //query.exec("insert into groups (name)values('Work')");
     //query.exec("insert into contacts (name,phone,mail,idgroup) values ('a','a','a','2')");
-    //query.exec("insert into contact values('', 'L', 'G', 'Y')");
-    //query.exec("insert into contact values('', 'R', 'R', 'Y')");
-    //query.exec("insert into contact values('', 'v', 'P', 'Y')");
+
 
 
    return true;

@@ -20,16 +20,16 @@
  #include <QFileIconProvider>
  #include <QVector>
 
-class Model : public QSqlQueryModel
+class CustomerModel : public QSqlQueryModel
 {
      Q_OBJECT
 
  public:
      
-    Model( QObject *parent = 0);
+    CustomerModel( QObject *parent = 0);
     QVariant data(const QModelIndex &index, int role) const;
     QVariant headerData(int section, Qt::Orientation orientation, int role) const;
-    virtual ~Model();
+    virtual ~CustomerModel();
    
 };
 
