@@ -1,12 +1,12 @@
-//
-// C++ Interface:
-//
-// Description:
-//
-// Author:Pavel Kral (C) 2008
-//
-// Copyright: See COPYING file that comes with this distribution
-//
+/*
+ * @copyright  Copyright (c) 2007 Pavel Kral
+ * @link       http://x-design.wz.cz/
+ * @category   C++
+ *
+ * For the full copyright and license information, please view
+ * the file license.txt that was distributed with this source code.
+ */
+
 
 #include <QtGui>
 #include <QSqlQueryModel>
