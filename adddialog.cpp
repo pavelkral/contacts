@@ -12,6 +12,7 @@
 #include <QDialog>
 #include <QSqlQuery>
 #include <QSqlRecord>
+#include <QMessageBox>
 #include "adddialog.h"
 #include "mainwindow.h"
 #include "groupmodel.h"

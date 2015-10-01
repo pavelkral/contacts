@@ -13,7 +13,7 @@
 
 #include "ui_mainwindow.h"
 
-#include <QMainWindow>
+//#include <QMainWindow>
 #include <QSqlDatabase>
 #include <QLabel>
 

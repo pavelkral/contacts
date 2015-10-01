@@ -1,4 +1,4 @@
-/**
+/*
  * @copyright  Copyright (c) 2007 Pavel Kral
  * @link       http://x-design.wz.cz/
  * @category   C++

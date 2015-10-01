@@ -15,7 +15,7 @@
         @author
 */
 #include <QSqlQueryModel>
-#include <QFileIconProvider>
+//#include <QFileIconProvider>
 #include <QVector>
 
 class GroupModel : public QSqlQueryModel

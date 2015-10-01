@@ -13,6 +13,9 @@
 #include <QSqlQuery>
 #include <QSqlRecord>
 #include <QHeaderView>
+#include <QLabel>
+#include <QInputDialog>
+#include <QMessageBox>
 #include "customermodel.h"
 #include "mainwindow.h"
 #include "adddialog.h"

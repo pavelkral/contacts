@@ -1,12 +1,19 @@
-QT += sql
+QT += sql widgets
 
-HEADERS = mainwindow.h conect.h customermodel.h adddialog.h \
- groupmodel.h
+HEADERS = mainwindow.h \
+          conect.h \
+          customermodel.h \
+          adddialog.h \
+          groupmodel.h \
 
-SOURCES = mainwindow.cpp main.cpp customermodel.cpp adddialog.cpp \
- groupmodel.cpp
+SOURCES = mainwindow.cpp \
+          main.cpp \
+          customermodel.cpp \
+          adddialog.cpp \
+          groupmodel.cpp \
 
-FORMS = mainwindow.ui adddialog.ui
+FORMS = mainwindow.ui \
+        adddialog.ui \
 
 TEMPLATE = app
 

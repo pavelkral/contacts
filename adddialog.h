@@ -15,8 +15,8 @@
         @author Pavel Kral
 */
 #include "ui_adddialog.h"
-#include <QDialog>
-#include <QToolBar>
+//#include <QDialog>
+//#include <QToolBar>
 
 
 class  QSqlQueryModel;

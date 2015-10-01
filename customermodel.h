@@ -17,7 +17,7 @@
 
 
  #include <QSqlQueryModel>
- #include <QFileIconProvider>
+ //#include <QFileIconProvider>
  #include <QVector>
 
 class CustomerModel : public QSqlQueryModel
