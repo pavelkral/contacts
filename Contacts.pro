@@ -21,3 +21,6 @@ RESOURCES +=    \
 	condat.qrc
 
 RC_FILE = contacts.rc
+
+DISTFILES += \
+      README.md

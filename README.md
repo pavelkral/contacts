@@ -2,7 +2,7 @@
 
 Database freeware to store contacts using intagrated SQlite system in Qt library.
 
-![alt tag](http://quadriproduction.org/media/img/app/contacts.png)
+![alt tag](https://pavelkral.net/images/aplication/contacts.png)
 
 To compile run:
 
