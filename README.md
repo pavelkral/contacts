@@ -6,7 +6,7 @@ To compile run:
 
 $qmake
 
-$make (by platform)
+$make (by platform compiler)
 
 
 

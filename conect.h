@@ -11,10 +11,11 @@
 #ifndef CONECT_H
 #define CONECT_H
 
-//#include <QMessageBox>
+#include <QMessageBox>
 #include <QSqlDatabase>
 #include <QSqlError>
 #include <QSqlQuery>
+#include <QApplication>
 
 
 static bool createConnection()

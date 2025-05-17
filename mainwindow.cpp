@@ -77,7 +77,7 @@ MainWindow::~ MainWindow()
 
 void MainWindow::on_actionAbout_triggered()
 {
-	QMessageBox::information ( this, "info","Created by <a href=x-design.wz.cz>www.xdesign.wz.cz</a> GPL licensed." );
+    QMessageBox::information ( this, "info","Created by </a> GPL licensed." );
 
 }
 void MainWindow::on_actionExit_triggered()
