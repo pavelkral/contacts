@@ -1,27 +1,13 @@
-/*
- * @copyright  Copyright (c) 2007 Pavel Kral
- * @link       http://x-design.wz.cz/
- * @category   C++
- *
- * For the full copyright and license information, please view
- * the file license.txt that was distributed with this source code.
- */
-
 
 #include "groupmodel.h"
 
 #include <QIcon>
 #include <QPixmap>
 
-GroupModel::GroupModel ( QObject *parent ) :QSqlQueryModel ( parent )
-{
-
-
+GroupModel::GroupModel ( QObject *parent ) :QSqlQueryModel ( parent ){
 }
 
-GroupModel::~GroupModel()
-{
-
+GroupModel::~GroupModel(){
 }
 
 QVariant GroupModel::data ( const QModelIndex &index, int role ) const
@@ -40,7 +26,7 @@ QVariant GroupModel::data ( const QModelIndex &index, int role ) const
     if ( role == Qt::DecorationRole )
     {
             if ( index.column() == 0 )
-                    return qVariantFromValue ( servs );
+                    return QVariant::fromValue( servs );
     }
 
 
